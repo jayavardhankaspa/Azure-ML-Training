@@ -2,9 +2,9 @@
 
 ## Contents
 
-1. [Intro to Machine Learning](#intro-to-machine-learning)
+1. [Intro to Machine Learning](#1.0-intro-to-machine-learning)
 
-# Intro to Machine Learning
+# 1.0 Intro to Machine Learning
 
 
 The chapter covers the followign items in the subtopics:
@@ -24,7 +24,7 @@ The distinction between classical machine learning vs. deep learning
 The main approaches to machine learning
 The trade-offs that come up when making decisions about how to design and training machine learning models
 
-## Defining and Differentiating Machine learning -- More to explore
+## 1.1 Defining and Differentiating Machine learning -- More to explore
 
 The Definition:
 
@@ -38,7 +38,7 @@ The following image depicts data science and its multiple desciplines:
 
 ![Here is a GIF! that highlights various fields of data science and inter-relates it with the timeline of business applications:](https://365datascience.com/wp-content/uploads/Euler-Venn_720p.gif)
 
-## History of Machine learning
+## 1.3 History of Machine learning
 
 Artificial intelligence started in 1950s which is all about writing algorithms that mimic human thought process. Machine learning then came to write programs which identify data patterns without explicitly being programmed. Deep learning with the discovery of neural nets is the breakthrough that drove the AI boom and also complex machine learning applications such as language processing and image classification.
 
