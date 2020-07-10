@@ -2,9 +2,10 @@
 
 ## Contents
 
-1. Intro to ML
+1. [Intro to Machine Learning](#intro-to-machine-learning)
 
 # Intro to Machine Learning
+
 
 The chapter covers the followign items in the subtopics:
 
@@ -52,4 +53,10 @@ Many hidden layers and hidden nodes made the field to be called as deep learning
   * Databases
   * Webservices
   * Scraping/Crawling webpages
-2. Preparing Data - Data cleansing (Removing undecirable values and data points from the data set) and Data visualistation (visualing data using plots/graphs)
+  
+2. Preparing Data - Data cleansing (removing undesirable values and baised data points from the data set) and Data visualistation (visualing data using plots/graphs)
+3. Training Model - setting up model pipeline by feature vectorization, feature scaling and tuning machine learning algorithm. evaluating mode performance thorugh variance evaluation matrxi to understand and evaluate the training cycles of the model.
+4. Evaluate Model - Testing and comparing the performance of multiple trained versions of the model with the test data
+5. Model Deployment - As a part of Devops which **integrate training, evaluation and deployment scripts for respective builds and realease pipelines**.They make sure all the versions of the model deployments are versioned and artifacts are archived.
+
+
