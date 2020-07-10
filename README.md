@@ -2,10 +2,15 @@
 
 ## Contents
 
-1 [Intro to Machine Learning](#10-intro-to-machine-learning)
-2 [Defining and Differentiation Machine Learning](#11-defining-and-differentiating-machine-learning)
+* [Intro to Machine Learning](#intro-to-machine-learning)
+* [Defining and Differentiation Machine Learning](#defining-and-differentiating-machine-learning)
+* [Story of machine learning](#history-of-machine-learning)
+* [The data science process](#the-data-science-process)
+* [Types of data](#types-of-data)
+* [Tabular data](#tabular-data)
+* [Scaling data](#scaling-data)
 
-# 1.0 Intro to Machine Learning
+# Intro to Machine Learning
 
 
 The chapter covers the followign items in the subtopics:
@@ -25,7 +30,7 @@ The distinction between classical machine learning vs. deep learning
 The main approaches to machine learning
 The trade-offs that come up when making decisions about how to design and training machine learning models
 
-## 1.1 Defining and Differentiating Machine learning
+## Defining and Differentiating Machine learning
 
 The Definition:
 
@@ -39,7 +44,8 @@ The following image depicts data science and its multiple desciplines:
 
 ![Here is a GIF! that highlights various fields of data science and inter-relates it with the timeline of business applications:](https://365datascience.com/wp-content/uploads/Euler-Venn_720p.gif)
 
-## 1.3 History of Machine learning
+## Story
+of Machine learning
 
 Artificial intelligence started in 1950s which is all about writing algorithms that mimic human thought process. Machine learning then came to write programs which identify data patterns without explicitly being programmed. Deep learning with the discovery of neural nets is the breakthrough that drove the AI boom and also complex machine learning applications such as language processing and image classification.
 
@@ -47,7 +53,7 @@ Many hidden layers and hidden nodes made the field to be called as deep learning
 
 ![Time line of machine learning](https://blogs.nvidia.com/wp-content/uploads/2016/07/Deep_Learning_Icons_R5_PNG.jpg-672x427.png.webp)
 
-## 1.5 The Data science process
+## The Data science process
 
 1. Collect Data - From various sources such as, but not limited to:
   * Files
@@ -66,7 +72,7 @@ Many hidden layers and hidden nodes made the field to be called as deep learning
 6. Retraining - Based on the business need, we might have to re-train our machine learning models going through the processes of Training-Evaluation-Deployment for the new re-trained version.
 
 
-## 1.6 Types of Data
+## Types of Data
 
 The form and structure of the data plays a crucial role in deciding the machine learning algorithm to use, values of hyper parameters and problem solving methodology.
 
@@ -83,7 +89,7 @@ The form and structure of the data plays a crucial role in deciding the machine 
 
 * **Image -** Transforming Image into numeric form is a challange similar to the text for developing machine learning algorithms.
 
-## 1.7 Tabular data
+## Tabular data
 
 The most common type of data available for most of the machine learning problems is the tabular data.
 
@@ -98,4 +104,13 @@ Defining the elements of tabular data:
 > **Vectors-**
 > A vector is simply an **array of numbers**, such as (1, 2, 3) or a nested array that contains other arrays of numbers, such as (1, 2, (1, 2, 3)).
 
+## Scaling data
 
+Scaling means transforming data within a scale (most commonly used are 0-1 and 1-100). As all of the data will be transformed uniformly to the required scale this wont impact the model's prediction outcome.
+
+Scaling will be done to improve the performance of the models training process as the data is now scaled to a smaller value.
+
+#### Conceptual Dilemmas:
+* When do we go with the scale of 1-100 in place of 0-1?
+* Is it required to propogate the training scalar for predictions using the test data?
+  * If the outcome is not changing with and without scaling data - it seems its not necessary to propogate.
