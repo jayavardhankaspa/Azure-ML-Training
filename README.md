@@ -43,6 +43,8 @@ Artificial intelligence started in 1950s which is all about writing algorithms t
 
 Many hidden layers and hidden nodes made the field to be called as deep learning.
 
+![Time line of machine learning](https://blogs.nvidia.com/wp-content/uploads/2016/07/Deep_Learning_Icons_R5_PNG.jpg-672x427.png.webp)
+
 ## The Data science process - 
 
 1. Collect Data - From various sources such as, but not limited to:
