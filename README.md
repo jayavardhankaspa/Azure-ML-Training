@@ -2,8 +2,8 @@
 
 ## Contents
 
-1. [Intro to Machine Learning](#10-intro-to-machine-learning)
-    1.1 [Defining and Differentiation Machine Learning](#11-defining-and-differentiating-machine-learning)
+1 [Intro to Machine Learning](#10-intro-to-machine-learning)
+2 [Defining and Differentiation Machine Learning](#11-defining-and-differentiating-machine-learning)
 
 # 1.0 Intro to Machine Learning
 
@@ -96,6 +96,6 @@ Defining the elements of tabular data:
 **Cell:** A single component of the table describing an item in the x-direction and its property in the y-direction.
 
 > **Vectors-**
-> A vector is simply an array of numbers, such as (1, 2, 3) or a nested array that contains other arrays of numbers, such as (1, 2, (1, 2, 3)).
+> A vector is simply an **array of numbers**, such as (1, 2, 3) or a nested array that contains other arrays of numbers, such as (1, 2, (1, 2, 3)).
 
 
