@@ -4,7 +4,7 @@
 
 * [Intro to Machine Learning](#intro-to-machine-learning)
 * [Defining and Differentiation Machine Learning](#defining-and-differentiating-machine-learning)
-* [Story of machine learning](#history-of-machine-learning)
+* [Story of machine learning](#story-of-machine-learning)
 * [The data science process](#the-data-science-process)
 * [Types of data](#types-of-data)
 * [Tabular data](#tabular-data)
@@ -44,8 +44,7 @@ The following image depicts data science and its multiple desciplines:
 
 ![Here is a GIF! that highlights various fields of data science and inter-relates it with the timeline of business applications:](https://365datascience.com/wp-content/uploads/Euler-Venn_720p.gif)
 
-## Story
-of Machine learning
+## Story of Machine learning
 
 Artificial intelligence started in 1950s which is all about writing algorithms that mimic human thought process. Machine learning then came to write programs which identify data patterns without explicitly being programmed. Deep learning with the discovery of neural nets is the breakthrough that drove the AI boom and also complex machine learning applications such as language processing and image classification.
 
@@ -106,11 +105,30 @@ Defining the elements of tabular data:
 
 ## Scaling data
 
-Scaling means transforming data within a scale (most commonly used are 0-1 and 1-100). As all of the data will be transformed uniformly to the required scale this wont impact the model's prediction outcome.
+Scaling means transforming data within a scale (most commonly used are 0-1 and 1-100). As all of the data will be transformed uniformly to the required scale this wont impact the model's prediction outcome. Scaling will be done to improve the performance of the models training process as the data is now scaled to a smaller value.
 
-Scaling will be done to improve the performance of the models training process as the data is now scaled to a smaller value.
+There are two mathematical methods of scaling **standardization** and **normalization**:
 
-#### Conceptual Dilemmas:
+> **Standardization** scales the data to have Mean = 0 and Variance = 1. This can be done by first subtracting data mean from the input and then divinding it with the variance.
+
+`(Input - Mean)/(Variance)`
+
+> **Normalization** rescales the data into a range `[0-1]` inclusive. Minimum value of the data set will be subtracted from the input and then will be divided by the range of the dataset(Range = Maximum values - Minimum value).
+
+`(Input - Minimum)/(Range)`
+
+#### * Conceptual Dilemmas:
 * When do we go with the scale of 1-100 in place of 0-1?
-* Is it required to propogate the training scalar for predictions using the test data?
-  * If the outcome is not changing with and without scaling data - it seems its not necessary to propogate.
+  
+#### * Learnings:
+* Scaling the training data is always a mandatory step during model training, it is also inevitable to scale the test data for predictions with the same scalar used during training.
+
+* It is advisable pickling scalars used in training, to facilitate its usage during the actual data predictions.
+
+* One of the techniques used to scale the data is the usage of Scikit's standard scalar function `scaler.fit_transform( )`.
+  * `scaler.fit_transform( )` is used to fit the `train_x` data and tune scaler and `scaler.transform( )` is used to transform the test data.
+  * The scaler takes both inputs in cases where you will need to scale the target variable. However this is used only sometimes in Linear regression tasks. In classification tasks, it makes zero sense to scale a binary or multi-label class, right? So the scaler will only scale your `train_x` numerical features in cases where you parse only the `train_x`  to the scaler.
+  
+* Another way to scale data is by using pandas `qcut` functionality [elaborated here!](https://pbpython.com/pandas-qcut-cut.html?utm_campaign=News&utm_medium=Community&utm_source=DataCamp.com).
+  * `qcut` can be used to label data by diving them into quantitatively equally weighted buckets and then assigning them a numerical label.Its more like an encoding technique for numerical values based on their distribution of data in the given dataset.
+  * Implementing this into scaling data would be by first dividing the data into desirable number of bins and assign their percentages as labels (Example: For a qcut of q=3 the labels will be = [0, 1/3, 2/3, 1]). This would help us get all the numerical data into the specified number of bins and we will use the cut ranges for these bins to scale the test data for predictions.
