@@ -12,23 +12,13 @@
 
 # Intro to Machine Learning
 
+Machine learning in the perspective of:
 
-The chapter covers the followign items in the subtopics:
+* Computer science:
+> We are using **input features** to create a **program** that can generate the **desired output**.
 
-  * The definition of Machine learning and How its different from Traditional Programing
-  * Applications of Machine learning
-  * The historical context of machine learning
-The data science process
-The types of data that machine learning deals with
-The two main perspectives in ML: the statistical perspective and the computer science perspective
-The essential tools needed for designing and training machine learning models
-The basics of Azure ML
-The distinction between models and algorithms
-The basics of a linear regression model
-The distinction between parametric vs. non-parametric functions
-The distinction between classical machine learning vs. deep learning
-The main approaches to machine learning
-The trade-offs that come up when making decisions about how to design and training machine learning models
+* Statistical:
+>We are trying to find a **mathematical function** that, given the values of the **independent variables** can predict the values of the **dependent variables**.
 
 ## Defining and Differentiating Machine learning
 
