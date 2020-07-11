@@ -158,3 +158,60 @@ As in machine learning nothing really matters except a number, and hence we have
     * The dimension of the data increases with each one hot encoding of categorical column as there will be as many new columns as the number of categories in the column.
     
     * The other major drawback of one hot encoding is the input structure of the data will not be the same as the dimension of the input data depends on the number of categories in the data.
+
+#### * Learnings:
+
+* The problem of unseen future categorical data can be addressed by using an additional category of others to have the new categories categorized in the encoding. And always remeber that if the number of new categories increase significantly retraining will be the only option to go with.
+
+## Image Data
+
+Pixels are the building blocks of images and a large stream of pixels spread across lenth and breadth will form an image. Pixels again constitutes of 3 channels **RGB(Red,Green and Blue)** each channel has a value range of (0-255). The variation in these 3 channels across the value range forms a picture.
+
+But there is a catch the above mentioned three channels for a pixel is for a color image. For a Grayscale image its a single channel in which 0 - represents white and 255 represents black and this single channel will make up to the entire spectrum of grayscale.
+
+The number of channels required to represent the color is known as the **color depth** or simply **depth**. With an RGB image, `depth = 3`, because there are three channels (Red, Green, and Blue). In contrast, a grayscale image has `depth = 1`, because there is only one channel.
+
+#### Encoding image
+
+As we know everything at the end has to be represented as numbers for machine learning and hence the image data too. To reproduce an image / to represent an image we need to know three things:
+
+     1. The horizontal position of pixel
+     2. The vertical position of pixel
+     3. The color of the pixel
+
+Hence we can fully represent or encode an image into number by using a three dimensional vector. And size of the vector required for a given image would be `height * width * depth`.
+
+> It is important to use uniform aspect ratio for all the images; preferably a square. And image data is typically normalized by subtracting the mean pixel value in each channel (R,G & B) from all the pixels in the image.
+
+## Text Data
+
+Text is another important data type which has to vectorized/converted into numbers in order to make them understandable to machine learning algorithms. And this accomplished by various process techinques highlighted below:
+
+1. **Normalization:**
+   Texts often contains different words that mean the same thing and sometime there will be words with alternative spellings (behaviour and behavior). And this process of transforming a text into its official/canonical form is called normalization. And this done throught multiple processes.
+   
+   * **Lemmatization** Lemma is the dictionary form of a word and lemmatization is a process of reducing multiple representations of a word into a dictionary word.
+     `(is,are and am)can be lematized as 'be'`
+   * **Stop words** These are high frequency words unnecessary words that doesnt add in additional meaning to the sentence.
+     `'Which cookbook has the best pancake recipe' can be reduced to '[cookbook,pancake,recipe]'`
+   * **Tokenization** The process of breaking a sentence into set of strings that make up into sentence is called tokenization.
+     `The quick fox will be tokenized into ['The','quick','fox']`
+2. **Vectorization:**
+Post normalization the text data has to be now encoded into numerical form and this is called vectorization. The goal here is to identify the features of the text that are relavant for our task and then get these extracted into a numerical form understandable by the machine learning algorithm. There are multiple methods of vectorizing a sentece or word and few popular onces are:
+
+   * [Term Frequency-Inverse Document Frequency (TF-IDF) vectorization](https://en.wikipedia.org/wiki/Tf-idf)
+      * As name says it all, if a term/word appears more frequently; it is inversly related to the document frequency which is adding a meaning to the entire document and hence it will be given lesser importance or lesser numerical weightage vice-versa.
+      
+   * [Word embedding, as done with Word2vec or Global Vectors (GloVe)](https://nlp.stanford.edu/pubs/glove.pdf)
+
+Each chunk of text gets a vector (represented here as a row in the table) that is the length of the total number of words that we are interested in (in this case, six words). If the normalized text does not have the word in question, then the value in that position is 0, whereas if it does have the word in question, it gets assigned to the importance of the word.
+
+text|normalized text|quick|fox|lazy|dog|rabid|hare
+----|---------------|-----|---|----|---|-----|----
+The quick fox|[quick, fox]|0.32|0.23|0.0|0.0|0.0|0.0
+The lazzy dog|[lazy, dog]|0.0|0.0|0.12|0.23|0.0|0.0
+The rabid hare|[rabid, hare]|0.0|0.0|0.0|0.0|0.56|0.12
+
+Hence each text above is now represented into a six dimension vector. And datapoint is a vector in this six dimensional vector space. How close a vector is to another can be asserted by using parameters such as **vector distance** distance between two vectors in the n-dimensional vector space.
+
+> Feature extraction is done for text data by ML algorithms by co-relating vector parameters such as vector distance (for accessing similarity of vectors) in the n-dimensional vector space.
