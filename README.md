@@ -247,4 +247,9 @@ The ecosystem contans the following majorcomponents:
      * Notebooks contain several cells in which the code is written and these cells can be executed individually to obtain output.
      * The output of each cell is stored and will be propogoated to the next cells of the notebook.
      * when a notebook is shared the code along with their outputs will be shared so that people can understand output of each code cell and understand the development.
-   ![Notebook paradigm](Images/Notebook_Paradigm.png)
+     * Please find the illustration of the entire data science process in a notebook below:
+       ![Notebook paradigm](Images/Notebook_Paradigm.png)
+ 3. **Cloud services** development environments are limited to resources of your machine and to train a model with a huge test data sometime the resources in your machine wont be sufficient and hence we have cloud services equiped with power resources and integrators which can get complex machine learning tasks done with ease.
+
+**Here is an illustration on end-to-end environment offered by Azure:**
+![end_to_end_with_azure](Images/end_to_end_with_azure.png)
