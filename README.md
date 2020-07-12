@@ -1,7 +1,8 @@
 # Azure-ML-Training
 
 ## Contents
-
+<details><summary> Basics of Machine Learning </summary>
+  <p>
 * [Intro to Machine Learning](#intro-to-machine-learning)
 * [Defining and Differentiation machine learning](#defining-and-differentiating-machine-learning)
 * [Story of machine learning](#story-of-machine-learning)
@@ -14,7 +15,10 @@
 * [Text data](#text-data)
 * [The two perspectives of machine learning](#the-two-perspectives-of-machine-learning)
 * [The machine learning ecosystem](#machine-learning-ecosystem)
-
+* [Essential Libraries](#essential-libraries)
+* [Cloud services](#cloud-services)
+  </p>
+</details>
 # Intro to Machine Learning
 
 Machine learning in the perspective of:
@@ -253,3 +257,53 @@ The ecosystem contans the following majorcomponents:
 
 **Here is an illustration on end-to-end environment offered by Azure:**
 ![end_to_end_with_azure](Images/end_to_end_with_azure.png)
+
+## Essential Libraries
+
+Here are few essential libraries(with their source links for reference) of machine learning:
+
+1. Core Frameworks and Tools
+
+   * [Python](https://www.python.org/) and `R` are one of the most popularly used core programing languages for machine learning
+   * [Jupyter Notebook](https://jupyter.org/) is the development environment in which we write, test and deploy our machine learning developments
+   * [Pandas](https://pandas.pydata.org/) is a library used to analyze and manipulate tabular and time-series data
+   * [Numpy](https://numpy.org/) provies support for large multi-dimensional arrays of data and multiple complex mathematical functions that can be applied on these arrays
+
+2. Data Visualisation
+
+   * [Matplotlib](https://matplotlib.org/) is a datavisualisation library used to create 2D graphs and plots of the dataset. It is implimented in multiple other libraries such as Seaborn and Scikit-Learn.
+   * [Seaborn](https://seaborn.pydata.org/) is a visualisation library used over matplot, and provides high level interface and helps in making data more informative and attractive.
+   * [Bokeh](https://docs.bokeh.org/en/latest/index.html) is a high level visualisation library, it generates an interactive visualisation using HTML and Javascript against static images of matplot and seaborn
+   * [Plotly](https://plotly.com/python/) is not a library but rather a company which provides different front end tools for machine learning including an exhaustive data visualisation library for Python
+
+3. Machine Learning and Deep Learning
+
+   * [Scikit-learn](https://scikit-learn.org/stable/) python library designed for machine learning and is designed over scientific and macnine learning libraries such as Numpy, SciPy and Matplotlib
+   * [Apache Spark](https://spark.apache.org/) Used for large scale data processing and big data. It is an open source analytics engine designed for [cluster computing](https://en.wikipedia.org/wiki/Computer_cluster)
+   * [TensorFlow](https://en.wikipedia.org/wiki/Computer_cluster) open soruce deep learning library from Google
+   * [Keras](https://keras.io/) is another deeplearning library that simpliifies working with tensorflow using APIs for interfacing
+   * [Pytorch][https://pytorch.org/] is an opensource library developed by Facebook. 
+     > It is know for being compartively easy to use for deep learning for developers familar with Python
+
+## Cloud Services
+
+Cloud services offer support to manage core assets and resources.
+
+1. Core asset management (support for assets needed for ML projects)
+
+Feature|Description
+-------|-----------
+Datasets|Define, version, and monitor datasets used in machine learning runs.
+Experiments / Runs|Organize machine learning workloads and keep track of each task executed through the service.
+Pipelines|Structured flows of tasks to model complex machine learning flows.
+Models|Model registry with support for versioning and deployment to production.
+Endpoints|Expose real-time endpoints for scoring as well as pipelines for advanced automation.
+
+2. Resource managed (for running ML tasks)
+
+Feature|Description
+-------|-----------
+Compute|Manage compute resources used by machine learning tasks.
+Environments|Templates for standardized environments used to create compute resources.
+Datastores|Data sources connected to the service environment (e.g. blob stores, file shares, Data Lake stores, databases).
+
