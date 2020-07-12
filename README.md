@@ -2,7 +2,7 @@
 
 ## Contents
 <details><summary> Basics of Machine Learning </summary>
-  <p>
+  
 * [Intro to Machine Learning](#intro-to-machine-learning)
 * [Defining and Differentiation machine learning](#defining-and-differentiating-machine-learning)
 * [Story of machine learning](#story-of-machine-learning)
@@ -17,9 +17,10 @@
 * [The machine learning ecosystem](#machine-learning-ecosystem)
 * [Essential Libraries](#essential-libraries)
 * [Cloud services](#cloud-services)
-  </p>
+
 </details>
-# Intro to Machine Learning
+
+## Intro to Machine Learning
 
 Machine learning in the perspective of:
 
