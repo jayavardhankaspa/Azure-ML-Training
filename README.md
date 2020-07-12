@@ -3,7 +3,7 @@
 ## Contents
 <details><summary> Basics of Machine Learning </summary>
   
-* [Intro to Machine Learning](#intro-to-machine-learning)
+* [Intro to Machine Learning](chapters/1.1.md)
 * [Defining and Differentiation machine learning](#defining-and-differentiating-machine-learning)
 * [Story of machine learning](#story-of-machine-learning)
 * [The data science process](#the-data-science-process)
