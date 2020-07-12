@@ -13,6 +13,7 @@
 * [Image data](#image-data)
 * [Text data](#text-data)
 * [The two perspectives of machine learning](#the-two-perspectives-of-machine-learning)
+* [The machine learning ecosystem](#machine-learning-ecosystem)
 
 # Intro to Machine Learning
 
@@ -236,5 +237,14 @@ Hence each text above is now represented into a six dimension vector. And datapo
      * If there are multiple input variables it is called as **input vector**(X1,X2,X3..) and the function will be:
        * Y = f(X1,X2,X3..)
 
-## Tools for machine learning
+## Machine learning ecosystem
+The ecosystem contans the following majorcomponents:
 
+1. **Libraries** it is a pre-written code that can be re-used by calling its methods,objects and other parameters of the code. [Few impoartant machine learning libraries](https://www.geeksforgeeks.org/best-python-libraries-for-machine-learning/)
+
+2. **Development environment** it is an application that helps with you with writing and testing your code for developing machine learning algorithms. Jupyter and Visual studio are few examples.
+   * **Notebooks** are development environments which have tools that help developers in writing runnable code, output generation, data formating and visualisation.
+     * Notebooks contain several cells in which the code is written and these cells can be executed individually to obtain output.
+     * The output of each cell is stored and will be propogoated to the next cells of the notebook.
+     * when a notebook is shared the code along with their outputs will be shared so that people can understand output of each code cell and understand the development.
+   ![Notebook paradigm](images/Notebook_Paradigm.png)
