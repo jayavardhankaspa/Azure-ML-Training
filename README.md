@@ -3,12 +3,16 @@
 ## Contents
 
 * [Intro to Machine Learning](#intro-to-machine-learning)
-* [Defining and Differentiation Machine Learning](#defining-and-differentiating-machine-learning)
+* [Defining and Differentiation machine learning](#defining-and-differentiating-machine-learning)
 * [Story of machine learning](#story-of-machine-learning)
 * [The data science process](#the-data-science-process)
 * [Types of data](#types-of-data)
 * [Tabular data](#tabular-data)
 * [Scaling data](#scaling-data)
+* [Encoding data](#encoding-categorical-data)
+* [Image data](#image-data)
+* [Text data](#text-data)
+* [The two perspectives of machine learning](#the-two-perspectives-of-machine-learning)
 
 # Intro to Machine Learning
 
@@ -205,3 +209,22 @@ The rabid hare|[rabid, hare]|0.0|0.0|0.0|0.0|0.56|0.12
 Hence each text above is now represented into a six dimension vector. And datapoint is a vector in this six dimensional vector space. How close a vector is to another can be asserted by using parameters such as **vector distance** distance between two vectors in the n-dimensional vector space.
 
 > Feature extraction is done for text data by ML algorithms by co-relating vector parameters such as vector distance (for accessing similarity of vectors) in the n-dimensional vector space.
+
+## The two perspectives of machine learning
+
+1. **Computer science perspective**
+
+> We are using **input features** to create a **program** that can generate desirable **output**
+   * **Data** will be represented in the form of a table.
+   * **Row** of the table can be called as an **entity** of the table or an **observation** of the data collected in the table or an **instance**(example) of the data in the table
+   * **column** of the table can be called as a **feature** or **attribute** which describes the entity
+   * Each row with multiple attributes will be termed as **input vector/input features**.
+     * Obtaining the right attributes or features is called as **feature extraction** and this is an important step in machine learning.
+   * We feed the input features to machine learning program to obtian desirable **output** from the model.
+     > Output = Program(Input features)
+     
+
+2. **Statistical perspective**
+
+> We are trying to finding a **mathematical function** which can predict the values of **dependent values** with the given **independent values**
+
