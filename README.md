@@ -247,4 +247,4 @@ The ecosystem contans the following majorcomponents:
      * Notebooks contain several cells in which the code is written and these cells can be executed individually to obtain output.
      * The output of each cell is stored and will be propogoated to the next cells of the notebook.
      * when a notebook is shared the code along with their outputs will be shared so that people can understand output of each code cell and understand the development.
-   ![Notebook paradigm](images/Notebook_Paradigm.png)
+   ![Notebook paradigm](Images/Notebook_Paradigm.png)
