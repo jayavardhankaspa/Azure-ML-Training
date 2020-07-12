@@ -228,3 +228,13 @@ Hence each text above is now represented into a six dimension vector. And datapo
 
 > We are trying to finding a **mathematical function** which can predict the values of **dependent values** with the given **independent values**
 
+   * In statistical view, machine learning is trying to figure out a function **f**. Which when given with an **input** or **input of independent variables** gives us an **output** or **depedent output variables**.
+   * This is denoted as:
+     * Output = Function(Input)
+     * Dependent variables = f(independent variables)
+     * Y = f(X)
+     * If there are multiple input variables it is called as **input vector**(X1,X2,X3..) and the function will be:
+       * Y = f(X1,X2,X3..)
+
+## Tools for machine learning
+
