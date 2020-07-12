@@ -1,9 +1,21 @@
 # Azure-ML-Training
 
-## Contents
 <details><summary> Basics of Machine Learning </summary>
   
-* [Intro to Machine Learning](#intro-to-machine-learning)
+<datails><summary>Intro to Machine Learning</summary>
+  
+## Intro to Machine Learning
+
+Machine learning in the perspective of:
+
+* Computer science:
+> We are using **input features** to create a **program** that can generate the **desired output**.
+
+* Statistical:
+>We are trying to find a **mathematical function** that, given the values of the **independent variables** can predict the values of the **dependent variables**.
+
+</details>
+
 * [Defining and Differentiation machine learning](#defining-and-differentiating-machine-learning)
 * [Story of machine learning](#story-of-machine-learning)
 * [The data science process](#the-data-science-process)
@@ -19,16 +31,6 @@
 * [Cloud services](#cloud-services)
 
 </details>
-
-## Intro to Machine Learning
-
-Machine learning in the perspective of:
-
-* Computer science:
-> We are using **input features** to create a **program** that can generate the **desired output**.
-
-* Statistical:
->We are trying to find a **mathematical function** that, given the values of the **independent variables** can predict the values of the **dependent variables**.
 
 ## Defining and Differentiating Machine learning
 
