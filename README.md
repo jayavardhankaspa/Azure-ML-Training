@@ -175,7 +175,7 @@ As we know everything at the end has to be represented as numbers for machine le
 
 Hence we can fully represent or encode an image into number by using a three dimensional vector. And size of the vector required for a given image would be `height * width * depth`.
 
-> It is important to use uniform aspect ratio for all the images; preferably a square. And image data is typically normalized by subtracting the mean pixel value in each channel (R,G & B) from all the pixels in the image.
+> Preprocessing Steps: It is important to use uniform aspect ratio for all the images; preferably a square. And image data is typically normalized by subtracting the mean pixel value in each channel (R,G & B) from all the pixels in the image.Also we might want to do to clean the input images include rotation, cropping, resizing, denoising, and centering the image.
 
 ## Text Data
 
