@@ -3,19 +3,19 @@
 ## Contents
 
 * [Intro to Machine Learning](#intro-to-machine-learning)
-* [Defining and Differentiation machine learning](#defining-and-differentiating-machine-learning)
-* [Story of machine learning](#story-of-machine-learning)
-* [The data science process](#the-data-science-process)
+  * [Defining and Differentiation machine learning](#defining-and-differentiating-machine-learning)
+  * [Story of machine learning](#story-of-machine-learning)
+  * [The data science process](#the-data-science-process)
 * [Types of data](#types-of-data)
-* [Tabular data](#tabular-data)
-* [Scaling data](#scaling-data)
-* [Encoding data](#encoding-categorical-data)
-* [Image data](#image-data)
-* [Text data](#text-data)
+  * [Tabular data](#tabular-data)
+  * [Scaling numeric data](#scaling-data)
+  * [Encoding categorical data](#encoding-categorical-data)
+  * [Image data](#image-data)
+  * [Text data](#text-data)
 * [The two perspectives of machine learning](#the-two-perspectives-of-machine-learning)
 * [The machine learning ecosystem](#machine-learning-ecosystem)
-* [Essential Libraries](#essential-libraries)
-* [Cloud services](#cloud-services)
+  * [Essential Libraries](#essential-libraries)
+  * [Cloud services](#cloud-services)
 
 ## Intro to Machine Learning
 
