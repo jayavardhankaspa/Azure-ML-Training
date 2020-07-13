@@ -1,5 +1,7 @@
 # Machine Learning Basics
 
+[go back to Home Page :house:](https://github.com/jayavardhankaspa/Azure-ML-Training/blob/master/README.md#contents)
+
 ## Contents
 
 * [Intro to Machine Learning](#intro-to-machine-learning)
