@@ -16,6 +16,7 @@
 * [The machine learning ecosystem](#machine-learning-ecosystem)
   * [Essential Libraries](#essential-libraries)
   * [Cloud services](#cloud-services)
+ * [Models vs. Algorithms](#models-vs-algorithms)
 
 ## Intro to Machine Learning
 
@@ -304,3 +305,21 @@ Feature|Description
 Compute|Manage compute resources used by machine learning tasks.
 Environments|Templates for standardized environments used to create compute resources.
 Datastores|Data sources connected to the service environment (e.g. blob stores, file shares, Data Lake stores, databases).
+
+## Models vs Algorithms
+
+Algorith is a funtion which takes input as data, learns from it and then gives us the model as output.
+
+````
+Model = Algorithm(Data)
+````
+
+> **Models** are the specific representations learned from data.
+
+> **Algorithms** are the processes of learning.
+
+For example, `y=Mx+C` is an algorithm used to predict the output`y` form an input `x`. But this can only be done when we know the values of `M` and `C`; this can be done by learning on multiple values of `x or input data` in the equation or algorithm `y = Mx+C`.
+
+> **Machine Learning models** represents what is learned by algorithm from the data. It is also the set of weights or co-efficients learned from an input data using an algorithm.
+
+In the above example the model will be the values of `M` and `C` which are learned from a training data set using the algorithm 'y = Mx+C'
