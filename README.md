@@ -1,4 +1,4 @@
-# Udacity's Azure Machine learning training
+# Udacity's Azure Machine Learning training
 
 :beer: cheers and Thank you for paying a visit :handshake:
 
@@ -25,5 +25,12 @@ Let's learn together!! :blush:
   * [The machine learning ecosystem](chapters/ml_basics.md/#machine-learning-ecosystem)
     * [Essential Libraries](chapters/ml_basics.md/#essential-libraries)
     * [Cloud services](chapters/ml_basics.md/#cloud-services)
+  * [Models]
    
+</details>
+
+<details> <summary> Azure Machine Learning environment</summary>
+  
+  * [Introduction to Azure Machine Learning](chapters/azure_ml.md/#intro-to-azure-machine-learning)
+
 </details>
