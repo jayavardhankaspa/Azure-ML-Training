@@ -1,6 +1,6 @@
 # Machine learning on Azure
 
-[go back to Home Page :house:](README.md)
+[go back to Home Page :house:](https://github.com/jayavardhankaspa/Azure-ML-Training/blob/master/README.md#contents)
 
 ## Contents
 
