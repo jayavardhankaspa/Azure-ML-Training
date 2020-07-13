@@ -1,9 +1,10 @@
 # Machine learning on Azure
 
+[go back to Home Page :house:](README.md)
+
 ## Contents
 
 * [Intro to Azure Machine Learning](#intro-to-azure-machine-learning)
-
 
 ## Intro to Azure Machine Learning
 
