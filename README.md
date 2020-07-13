@@ -25,7 +25,7 @@ Let's learn together!! :blush:
   * [The machine learning ecosystem](chapters/ml_basics.md/#machine-learning-ecosystem)
     * [Essential Libraries](chapters/ml_basics.md/#essential-libraries)
     * [Cloud services](chapters/ml_basics.md/#cloud-services)
-  * [Models]
+  * [Models vs. Algorithms](chapters/ml_basics.md/#models-vs-algorithms)
    
 </details>
 
